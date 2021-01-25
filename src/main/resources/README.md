@@ -1,1 +1,1 @@
-This Package for application resources
+This Package for application resources.

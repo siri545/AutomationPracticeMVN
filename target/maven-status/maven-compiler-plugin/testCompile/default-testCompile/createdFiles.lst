@@ -1,0 +1,7 @@
+libraries/Base.class
+pages/HomePage.class
+libraries/JavaPropertiesManager.class
+libraries/GlobalSeleniumLibrary$1.class
+libraries/ObjectMap.class
+libraries/GlobalSeleniumLibrary$Browser.class
+libraries/GlobalSeleniumLibrary.class

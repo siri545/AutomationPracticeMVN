@@ -1,0 +1,28 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Smoke" verbose="2" preserve-order="true" parallel="tests" thread-count="10">
+    <test name="TestNG classes Test">
+        <classes>
+            <class name="example" />
+            <class name="example" />
+        </classes>
+    </test>
+    <test name="TestNG classes Test">
+        <classes>
+            <class name="example" />
+            <class name="example" />
+            <class name="com.example">
+                <methods>
+                    <exclude name="test_add"></exclude>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name="TestNG Packages Test">
+        <packages>
+            <package name="com.journaldev.xml"></package>
+        </packages>
+    </test>
+
+
+
+</suite>

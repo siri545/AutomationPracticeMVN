@@ -20,11 +20,10 @@ public class Base {
     private String browserType;
     private String hubURL;
 
-    @BeforeClass // before all tests start, this method runs only 1 time
+    @BeforeClass
     public void beforeAllTests() {
         selLibrary = new GlobalSeleniumLibrary();
 
-        // test suite start time
         String tempTestStartTime = selLibrary.getCurrentTime();
         JavaPropertiesManager sessionTimeProp = new JavaPropertiesManager(
                 "src/test/resources/sessionConfig.properties");
@@ -54,9 +53,7 @@ public class Base {
 
     }
 
-    @AfterClass // this method runs only 1 time after all tests are completed.
-    // after all the tests are completed, then try to close browsers
-    // if there are open browsers left from selenium
+    @AfterClass
     public void afterAllTests() {
         // selLibrary.closeBrowsers();
         logger.info("All the tests are completed...");
@@ -64,9 +61,7 @@ public class Base {
         JavaPropertiesManager configProp = new JavaPropertiesManager("src/test/resources/config.properties");
     }
 
-    @BeforeMethod // this method runs/executes depending on how many tests you
-    // have in your test class
-    // before each test starts - setting up browser
+    @BeforeMethod
     public void setup() {
         logger.info("Test started...");
 
@@ -99,14 +94,12 @@ public class Base {
         }
     }
 
-    @AfterMethod // after each test is completed, cleaning up - close the browser
-    // capture screenshots only if there is test failure.
+    @AfterMethod
     public void close(ITestResult result) {
         try {
             Thread.sleep(5 * 1000);
 
             if (ITestResult.FAILURE == result.getStatus()) {
-                // test failed, call capture screenshot method
                 selLibrary.captureScreenshot(result.getName(), "");
             }
             selLibrary.closeBrowsers();

@@ -69,12 +69,6 @@ public class GlobalSeleniumLibrary extends Base {
         this.isDemoMode = isDemoMode;
     }
 
-    public void waitForElementNotPresence(By cssSelector) {
-    }
-
-//    public String currentTime() {
-//    }
-
     enum Browser {
         IE, FIREFOX, CHROME, SAFARI, EDGE
     }

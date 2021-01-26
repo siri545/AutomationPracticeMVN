@@ -24,18 +24,13 @@ public class ObjectMap extends Base {
 
     public By getLocator(String StringElement) throws Exception {
 
-        // retrieve the specified object from the object list
         String locator = prop.getProperty(StringElement);
 
-        // extract the locator type and value from the object
         String locatorType = locator.split(":")[0];
         String locatorValue = locator.split(":")[1];
 
-        // for testing and debugging purposes
         System.out.println("Retrieving object of type '" + locatorType + "' and value '" + locatorValue + "' from the object map");
 
-        // return a instance of the By class based on the type of the locator
-        // this By can be used by the browser object in the actual test
         if (locatorType.toLowerCase().equals("id"))
             return By.id(locatorValue);
         else if (locatorType.toLowerCase().equals("name"))

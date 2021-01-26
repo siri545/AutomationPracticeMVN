@@ -50,7 +50,6 @@ public class Base {
         if (headless.toLowerCase().contains("on")) {
             selLibrary.setChromeHeadless(true);
         }
-
     }
 
     @AfterClass

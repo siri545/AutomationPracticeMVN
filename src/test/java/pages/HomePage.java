@@ -20,11 +20,15 @@ public class HomePage extends Base {
         logger.info("\n" + "Actual Title is: " + ActualTitle + "\n" + "Expected Title is: " + ExpectedTitle);
     }
 
-    public void verifyHomePageDisplay() throws Exception {
-        selLibrary.waitForElementVisibility(objMap.getLocator("HomePage.Logo"));
-        selLibrary.waitForElementVisibility(objMap.getLocator("HomePage.Header"));
-        selLibrary.waitForElementVisibility(objMap.getLocator("HomePage.SearchBox"));
-        selLibrary.waitForElementVisibility(objMap.getLocator("HomePage.CartLink"));
+    public void verifyHomePageDisplay() {
+        try {
+            selLibrary.waitForElementVisibility(objMap.getLocator("HomePage.Logo"));
+            selLibrary.waitForElementVisibility(objMap.getLocator("HomePage.Header"));
+            selLibrary.waitForElementVisibility(objMap.getLocator("HomePage.SearchBox"));
+            selLibrary.waitForElementVisibility(objMap.getLocator("HomePage.CartLink"));
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
     }
 
 

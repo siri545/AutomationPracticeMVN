@@ -78,7 +78,6 @@ public class GlobalSeleniumLibrary extends Base {
     }
 
     public GlobalSeleniumLibrary(WebDriver _driver) {
-
         driver = _driver;
     }
 
@@ -97,7 +96,7 @@ public class GlobalSeleniumLibrary extends Base {
         }
     }
 
-    private WebDriver startRemoteIEBroser(String hubURL) {
+    private WebDriver startRemoteIEBrowser(String hubURL) {
         try {
             DesiredCapabilities cap = new DesiredCapabilities();
             InternetExplorerOptions IEOps = new InternetExplorerOptions();
@@ -110,7 +109,7 @@ public class GlobalSeleniumLibrary extends Base {
         return driver;
     }
 
-    private WebDriver startRemoteChromeBroser(String hubURL) {
+    private WebDriver startRemoteChromeBrowser(String hubURL) {
         try {
             DesiredCapabilities cap = new DesiredCapabilities();
             ChromeOptions chromeOps = new ChromeOptions();
@@ -126,7 +125,7 @@ public class GlobalSeleniumLibrary extends Base {
         return driver;
     }
 
-    private WebDriver startRemoteFirefoxBroser(String hubURL) {
+    private WebDriver startRemoteFirefoxBrowser(String hubURL) {
         try {
             DesiredCapabilities cap = new DesiredCapabilities();
             FirefoxOptions firefoxOps = new FirefoxOptions();
@@ -139,7 +138,7 @@ public class GlobalSeleniumLibrary extends Base {
         return driver;
     }
 
-    private WebDriver startRemoteSafariBroser(String hubURL) {
+    private WebDriver startRemoteSafariBrowser(String hubURL) {
         try {
             DesiredCapabilities cap = new DesiredCapabilities();
             SafariOptions safariOps = new SafariOptions();
@@ -152,7 +151,7 @@ public class GlobalSeleniumLibrary extends Base {
         return driver;
     }
 
-    private WebDriver startRemoteEdgeBroser(String hubURL) {
+    private WebDriver startRemoteEdgeBrowser(String hubURL) {
         try {
             DesiredCapabilities cap = new DesiredCapabilities();
             EdgeOptions edgeOps = new EdgeOptions();
@@ -169,28 +168,28 @@ public class GlobalSeleniumLibrary extends Base {
         try {
             switch (browser) {
                 case IE:
-                    driver = startRemoteIEBroser(hubURL);
+                    driver = startRemoteIEBrowser(hubURL);
                     break;
 
                 case CHROME:
-                    driver = startRemoteChromeBroser(hubURL);
+                    driver = startRemoteChromeBrowser(hubURL);
                     break;
 
                 case FIREFOX:
-                    driver = startRemoteFirefoxBroser(hubURL);
+                    driver = startRemoteFirefoxBrowser(hubURL);
                     break;
 
                 case SAFARI:
-                    driver = startRemoteSafariBroser(hubURL);
+                    driver = startRemoteSafariBrowser(hubURL);
                     break;
 
                 case EDGE:
-                    driver = startRemoteEdgeBroser(hubURL);
+                    driver = startRemoteEdgeBrowser(hubURL);
 
                 default:
                     logger.error("Currently we are not suporting this browser type!");
                     logger.error("Default browser set to Remote Chrome.");
-                    driver = startRemoteChromeBroser(hubURL);
+                    driver = startRemoteChromeBrowser(hubURL);
                     break;
             }
             isRemote = true;
@@ -243,7 +242,6 @@ public class GlobalSeleniumLibrary extends Base {
      */
     private WebDriver startChromeBrowser() {
         try {
-            System.setProperty("webdriver.chrome.driver", "src/test/resources/drivers/chromedriver.exe");
             ChromeOptions chromeOps = new ChromeOptions();
             if (isChromeHeadless) {
                 chromeOps.setHeadless(true);
@@ -287,7 +285,6 @@ public class GlobalSeleniumLibrary extends Base {
             InternetExplorerOptions IEOps = new InternetExplorerOptions();
             IEOps.introduceFlakinessByIgnoringSecurityDomains();
             // IEOps.ignoreZoomSettings();
-            System.setProperty("webdriver.ie.driver", "src/test/resources/drivers/IEDriverServer.exe");
             driver = new InternetExplorerDriver(IEOps);
             // resetting the IE zoom to 100%
             driver.findElement(By.tagName("body")).sendKeys(Keys.chord(Keys.CONTROL, "0"));
@@ -322,7 +319,6 @@ public class GlobalSeleniumLibrary extends Base {
     private WebDriver startEdgeBrowser() {
         try {
             EdgeOptions edgeOps = new EdgeOptions();
-            System.setProperty("webdriver.edge.driver", "src/test/resources/drivers/msedgedriver.exe");
             driver = new EdgeDriver(edgeOps);
 
             WebDriverManager.edgedriver().setup();

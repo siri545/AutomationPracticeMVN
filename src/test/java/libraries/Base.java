@@ -13,7 +13,7 @@ import org.testng.annotations.BeforeMethod;
 public class Base {
     final static Logger logger = LogManager.getLogger(Base.class);
 
-    public static ObjectMap objMap = new ObjectMap("objectmap.properties");
+    public static ObjectMap objMap = new ObjectMap("../resources/objectmap.properties");
 
     public static WebDriver driver;
     public static GlobalSeleniumLibrary selLibrary;

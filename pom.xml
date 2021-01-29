@@ -28,6 +28,7 @@
         <MavenSurefire.Version>3.0.0-M5</MavenSurefire.Version>
         <MavenDeploy.Version>3.0.0-M1</MavenDeploy.Version>
         <MavenPlugins.Version>2.6</MavenPlugins.Version>
+        <Slf4j.Version>1.7.30</Slf4j.Version>
 
         <!-- TestNG.xml Files -->
         <TestNG.Smoke>testngSmoke.xml</TestNG.Smoke>
@@ -78,6 +79,16 @@
             <artifactId>hamcrest-core</artifactId>
             <version>${Hamcrest.Version}</version>
             <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.slf4j</groupId>
+            <artifactId>slf4j-api</artifactId>
+            <version>${Slf4j.Version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.slf4j</groupId>
+            <artifactId>slf4j-simple</artifactId>
+            <version>${Slf4j.Version}</version>
         </dependency>
     </dependencies>
 

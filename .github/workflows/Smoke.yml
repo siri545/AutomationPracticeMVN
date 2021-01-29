@@ -10,11 +10,11 @@ on:
     inputs:
       name:
         # Friendly description to be shown in the UI instead of 'name'
-        description: 'Hello Tester'
+        description: 'Enter mvn commands to run test'
         # Default value if no value is explicitly provided
-        default: 'Hello Tester'
+        default: 'Enter mvn commands'
         # Input has to be provided for the workflow to run
-        required: fase
+        required: false
 
 jobs:
   build:

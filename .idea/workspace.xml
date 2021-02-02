@@ -4,16 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8f3efc02-914c-4679-8ea3-4e10cdf29c2c" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.github/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/AutomationPracticeSmokeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/AutomationPracticeSmokeTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/sessionConfig.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/sessionConfig.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/AutomationPractice-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/AutomationPractice-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/license.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/license.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/project-info.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/project-info.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/sessionConfig.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/sessionConfig.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/AutomationPracticeSmokeTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/tests/AutomationPracticeSmokeTest.class" afterDir="false" />
+    <list default="true" id="8f3efc02-914c-4679-8ea3-4e10cdf29c2c" name="Default Changelist" comment="Add slf4j dependency">
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,7 +76,7 @@
     <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.17" />
     <property name="project.structure.side.proportion" value="0.33333334" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.CommitDialog" />
   </component>
   <component name="ReactorSettings">
     <option name="notificationShown" value="true" />
@@ -197,7 +189,7 @@
       <workItem from="1612148598709" duration="10000" />
       <workItem from="1612308837800" duration="395000" />
       <workItem from="1612309360427" duration="48000" />
-      <workItem from="1612309419074" duration="149000" />
+      <workItem from="1612309419074" duration="370000" />
     </task>
     <task id="LOCAL-00001" summary="First Commit">
       <created>1611541437264</created>
@@ -451,7 +443,21 @@
       <option name="project" value="LOCAL" />
       <updated>1611879740867</updated>
     </task>
-    <option name="localTasksCounter" value="37" />
+    <task id="LOCAL-00037" summary="Add slf4j dependency">
+      <created>1612309592800</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1612309592800</updated>
+    </task>
+    <task id="LOCAL-00038" summary="Add slf4j dependency">
+      <created>1612309704825</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1612309704825</updated>
+    </task>
+    <option name="localTasksCounter" value="39" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -469,9 +475,13 @@
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myShow1" value="true" />
+  </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_LOCALLY_CHANGED_CONFLICTS_IN_BACKGROUND" value="true" />
     <option name="CHANGED_ON_SERVER_INTERVAL" value="5" />
+    <option name="SHOW_DIRTY_RECURSIVELY" value="true" />
     <MESSAGE value="First Commit" />
     <MESSAGE value="Add src/main and src/resources" />
     <MESSAGE value="Fix src/main README.md" />

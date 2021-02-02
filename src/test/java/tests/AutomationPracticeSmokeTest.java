@@ -12,7 +12,6 @@ public class AutomationPracticeSmokeTest extends Base {
     public void smokeTest() {
         try {
             myHomePage.navigateToAutomationPracticeWebSite();
-
             myHomePage.verifyHomePageDisplay();
         } catch (Exception e) {
             e.printStackTrace();

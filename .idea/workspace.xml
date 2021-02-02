@@ -1,0 +1,487 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="8f3efc02-914c-4679-8ea3-4e10cdf29c2c" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.github/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/AutomationPracticeSmokeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/AutomationPracticeSmokeTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/sessionConfig.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/sessionConfig.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/AutomationPractice-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/AutomationPractice-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/license.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/license.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/project-info.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/project-info.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/sessionConfig.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/sessionConfig.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/AutomationPracticeSmokeTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/tests/AutomationPracticeSmokeTest.class" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="siripornsingkhamsirikul &lt;jj_yangyuzhen@icloud.com&gt;" />
+        <option value="Siriporn Singhkhsirikul &lt;76498302+siri545@users.noreply.github.com&gt;" />
+        <option value="Siriporn Singhkhsirikul &lt;76498302+siri545@users.noreply.github.com&gt;singkhamsirikul &lt;jj_yangyuzhen@icloud.com&gt;" />
+        <option value="jj_yangyuzhen@icloud.com" />
+      </list>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="SIGN_OFF_COMMIT" value="true" />
+  </component>
+  <component name="GitToolBoxStore">
+    <option name="projectConfigVersion" value="2" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/src/test/resources/objectmap.properties" root0="SKIP_HIGHLIGHTING" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="downloadAnnotationsAutomatically" value="true" />
+        <option name="downloadDocsAutomatically" value="true" />
+        <option name="downloadSourcesAutomatically" value="true" />
+        <option name="jdkForImporter" value="azul-15" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenRunner">
+    <option name="jreName" value="azul-15" />
+  </component>
+  <component name="ProjectId" id="1nWuHG7BR0LjWCNbCC84bBfxZZF" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="autoscrollFromSource" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="project.structure.last.edited" value="SDKs" />
+    <property name="project.structure.proportion" value="0.17" />
+    <property name="project.structure.side.proportion" value="0.33333334" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="ReactorSettings">
+    <option name="notificationShown" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/resources" />
+      <recent name="$PROJECT_DIR$/src/main/java" />
+      <recent name="$PROJECT_DIR$/src/test/resources" />
+      <recent name="$PROJECT_DIR$/src/test/java" />
+      <recent name="$PROJECT_DIR$/src/test/resources/testNgRunner" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/.github" />
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
+  <component name="RunManager" selected="TestNG.AutomationPracticeSmokeTest">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AutomationPracticeSmokeTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="AutomationPractice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.AutomationPracticeSmokeTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AutomationPracticeSmokeTest.smokeTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="AutomationPractice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.AutomationPracticeSmokeTest" />
+      <option name="METHOD_NAME" value="smokeTest" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="TestNG.AutomationPracticeSmokeTest" />
+        <item itemvalue="TestNG.AutomationPracticeSmokeTest.smokeTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration>$USER_HOME$/.subversion</configuration>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8f3efc02-914c-4679-8ea3-4e10cdf29c2c" name="Default Changelist" comment="" />
+      <created>1611518077426</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1611518077426</updated>
+      <workItem from="1611518078514" duration="1597000" />
+      <workItem from="1611519768191" duration="41000" />
+      <workItem from="1611521722478" duration="2745000" />
+      <workItem from="1611524491611" duration="30000" />
+      <workItem from="1611525989023" duration="11870000" />
+      <workItem from="1611545471798" duration="2443000" />
+      <workItem from="1611548138149" duration="1127000" />
+      <workItem from="1611596723211" duration="91000" />
+      <workItem from="1611596816423" duration="278000" />
+      <workItem from="1611687532300" duration="75000" />
+      <workItem from="1611687620433" duration="13000" />
+      <workItem from="1611687647280" duration="26000" />
+      <workItem from="1611687683946" duration="10000" />
+      <workItem from="1611688398199" duration="110000" />
+      <workItem from="1611688514345" duration="6000" />
+      <workItem from="1611688534741" duration="225000" />
+      <workItem from="1611688782907" duration="1287000" />
+      <workItem from="1611705183753" duration="10000" />
+      <workItem from="1611713968603" duration="74000" />
+      <workItem from="1611874328430" duration="5249000" />
+      <workItem from="1611880107024" duration="68000" />
+      <workItem from="1611883221741" duration="341000" />
+      <workItem from="1611974743456" duration="19000" />
+      <workItem from="1611974775588" duration="14000" />
+      <workItem from="1612040107238" duration="198000" />
+      <workItem from="1612066551398" duration="11000" />
+      <workItem from="1612143815386" duration="2322000" />
+      <workItem from="1612148598709" duration="10000" />
+      <workItem from="1612308837800" duration="395000" />
+      <workItem from="1612309360427" duration="48000" />
+      <workItem from="1612309419074" duration="149000" />
+    </task>
+    <task id="LOCAL-00001" summary="First Commit">
+      <created>1611541437264</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1611541437264</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Add src/main and src/resources">
+      <created>1611543216740</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1611543216740</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Fix src/main README.md">
+      <created>1611543726868</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1611543726868</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Fix src/main README.md">
+      <created>1611544024669</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1611544024669</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Fix src/main README.md">
+      <created>1611544094199</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1611544094199</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Fix src/main README.md">
+      <created>1611544550516</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1611544550516</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Fix src/main README.md">
+      <created>1611544612345</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1611544612345</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Fix src/main README.md">
+      <created>1611544644588</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1611544644588</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Fix src/main README.md">
+      <created>1611545507982</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1611545507982</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Fix src/main README.md">
+      <created>1611545559712</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1611545559712</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Fix src/main README.md">
+      <created>1611545621419</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1611545621419</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Fix src/main README.md">
+      <created>1611545634179</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1611545634179</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Fix src/main README.md">
+      <created>1611545650602</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1611545650602</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Fix src/main README.md">
+      <created>1611546265962</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1611546265962</updated>
+    </task>
+    <task id="LOCAL-00015" summary="Fix src/main README.md">
+      <created>1611546280138</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1611546280138</updated>
+    </task>
+    <task id="LOCAL-00016" summary="Fix src/main README.md">
+      <created>1611546293233</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1611546293233</updated>
+    </task>
+    <task id="LOCAL-00017" summary="Fix src/main README.md">
+      <created>1611546303722</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1611546303722</updated>
+    </task>
+    <task id="LOCAL-00018" summary="Fix src/main README.md">
+      <created>1611546444218</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1611546444218</updated>
+    </task>
+    <task id="LOCAL-00019" summary="Fix src/main README.md">
+      <created>1611546495449</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1611546495449</updated>
+    </task>
+    <task id="LOCAL-00020" summary="Fix src/main README.md">
+      <created>1611546521814</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1611546521814</updated>
+    </task>
+    <task id="LOCAL-00021" summary="Fix src/main README.md">
+      <created>1611546604819</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1611546604819</updated>
+    </task>
+    <task id="LOCAL-00022" summary="Fix src/main README.md">
+      <created>1611546618196</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1611546618196</updated>
+    </task>
+    <task id="LOCAL-00023" summary="Fix src/main README.md">
+      <created>1611546638813</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1611546638813</updated>
+    </task>
+    <task id="LOCAL-00024" summary="Fix src/main README.md">
+      <created>1611546995999</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1611546995999</updated>
+    </task>
+    <task id="LOCAL-00025" summary="Fix src/main README.md">
+      <created>1611547068524</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1611547068524</updated>
+    </task>
+    <task id="LOCAL-00026" summary="Fix src/main README.md">
+      <created>1611547310573</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1611547310573</updated>
+    </task>
+    <task id="LOCAL-00027" summary="Add GitToolBox to Project Settings git_toolbox_prj.xml">
+      <created>1611548651151</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1611548651151</updated>
+    </task>
+    <task id="LOCAL-00028" summary="Add GitToolBox to Project Settings git_toolbox_prj.xml">
+      <created>1611688616564</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1611688616565</updated>
+    </task>
+    <task id="LOCAL-00029" summary="Add GitToolBox to Project Settings git_toolbox_prj.xml">
+      <created>1611688710062</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1611688710062</updated>
+    </task>
+    <task id="LOCAL-00030" summary="Fix WebDriver">
+      <created>1611877173094</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1611877173094</updated>
+    </task>
+    <task id="LOCAL-00031" summary="Fix WebDriver">
+      <created>1611877607333</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1611877607333</updated>
+    </task>
+    <task id="LOCAL-00032" summary="change Log4j level to DEBUG">
+      <created>1611878038717</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1611878038717</updated>
+    </task>
+    <task id="LOCAL-00033" summary="Edit Smoke.yml">
+      <created>1611878959085</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1611878959085</updated>
+    </task>
+    <task id="LOCAL-00034" summary="Edit Smoke.yml&#10;&#10;Signed-off-by: Siriporn Singkhamsirikul &lt;jj_yangyuzhen@icloud.com&gt;">
+      <created>1611878995015</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1611878995015</updated>
+    </task>
+    <task id="LOCAL-00035" summary="Change Smoke.yml to ManualTrigger.yml">
+      <created>1611879292828</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1611879292828</updated>
+    </task>
+    <task id="LOCAL-00036" summary="Add slf4j dependency">
+      <created>1611879740867</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1611879740867</updated>
+    </task>
+    <option name="localTasksCounter" value="37" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CHECK_LOCALLY_CHANGED_CONFLICTS_IN_BACKGROUND" value="true" />
+    <option name="CHANGED_ON_SERVER_INTERVAL" value="5" />
+    <MESSAGE value="First Commit" />
+    <MESSAGE value="Add src/main and src/resources" />
+    <MESSAGE value="Fix src/main README.md" />
+    <MESSAGE value="Add GitToolBox to Project Settings git_toolbox_prj.xml" />
+    <MESSAGE value="Fix WebDriver" />
+    <MESSAGE value="change Log4j level to DEBUG" />
+    <MESSAGE value="Edit Smoke.yml" />
+    <MESSAGE value="Edit Smoke.yml&#10;&#10;Signed-off-by: Siriporn Singkhamsirikul &lt;jj_yangyuzhen@icloud.com&gt;" />
+    <MESSAGE value="Change Smoke.yml to ManualTrigger.yml" />
+    <MESSAGE value="Add slf4j dependency" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add slf4j dependency" />
+  </component>
+</project>

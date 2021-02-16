@@ -10,6 +10,7 @@ public class AutomationPracticeSmokeTest extends Base {
 
     @Test
     public void smokeTest() {
+        //today date
         try {
             myHomePage.navigateToAutomationPracticeWebSite();
             myHomePage.verifyHomePageDisplay();

@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8f3efc02-914c-4679-8ea3-4e10cdf29c2c" name="Default Changelist" comment="Add develop">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+    <list default="true" id="8f3efc02-914c-4679-8ea3-4e10cdf29c2c" name="Default Changelist" comment="Fix code in BaseClass -&gt; method clickElement">
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/AutomationPracticeSmokeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/AutomationPracticeSmokeTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,6 +38,14 @@
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="SIGN_OFF_COMMIT" value="true" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
   </component>
   <component name="GitToolBoxStore">
     <option name="projectConfigVersion" value="2" />
@@ -217,7 +224,7 @@
       <workItem from="1612309419074" duration="393000" />
       <workItem from="1612318610344" duration="599000" />
       <workItem from="1612919027300" duration="1319000" />
-      <workItem from="1613454301237" duration="1020000" />
+      <workItem from="1613454301237" duration="1488000" />
     </task>
     <task id="LOCAL-00001" summary="First Commit">
       <created>1611541437264</created>
@@ -499,7 +506,14 @@
       <option name="project" value="LOCAL" />
       <updated>1613454582659</updated>
     </task>
-    <option name="localTasksCounter" value="41" />
+    <task id="LOCAL-00041" summary="Fix code in BaseClass -&gt; method clickElement">
+      <created>1613455516630</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1613455516630</updated>
+    </task>
+    <option name="localTasksCounter" value="42" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -535,6 +549,7 @@
     <MESSAGE value="Change Smoke.yml to ManualTrigger.yml" />
     <MESSAGE value="Add slf4j dependency" />
     <MESSAGE value="Add develop" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add develop" />
+    <MESSAGE value="Fix code in BaseClass -&gt; method clickElement" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fix code in BaseClass -&gt; method clickElement" />
   </component>
 </project>

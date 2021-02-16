@@ -33,7 +33,7 @@
     </option>
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="master" />
+        <entry key="$PROJECT_DIR$" value="develop" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -57,16 +57,16 @@
               <option name="branches">
                 <list>
                   <RecentBranch>
-                    <option name="branchName" value="demo-101" />
-                    <option name="lastUsedInstant" value="1613454938" />
+                    <option name="branchName" value="tue-feb-16" />
+                    <option name="lastUsedInstant" value="1613515041" />
+                  </RecentBranch>
+                  <RecentBranch>
+                    <option name="branchName" value="develop" />
+                    <option name="lastUsedInstant" value="1613514811" />
                   </RecentBranch>
                   <RecentBranch>
                     <option name="branchName" value="master" />
                     <option name="lastUsedInstant" value="1613454911" />
-                  </RecentBranch>
-                  <RecentBranch>
-                    <option name="branchName" value="develop" />
-                    <option name="lastUsedInstant" value="1613454906" />
                   </RecentBranch>
                 </list>
               </option>
@@ -135,6 +135,17 @@
     </key>
   </component>
   <component name="RunManager" selected="TestNG.AutomationPracticeSmokeTest">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="AutomationPracticeSmokeTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="AutomationPractice" />
       <extension name="coverage">
@@ -225,6 +236,7 @@
       <workItem from="1612318610344" duration="599000" />
       <workItem from="1612919027300" duration="1319000" />
       <workItem from="1613454301237" duration="1488000" />
+      <workItem from="1613514618498" duration="472000" />
     </task>
     <task id="LOCAL-00001" summary="First Commit">
       <created>1611541437264</created>

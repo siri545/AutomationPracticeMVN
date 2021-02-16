@@ -18,5 +18,4 @@ public class AutomationPracticeSmokeTest extends Base {
         }
     }
 
-
 }

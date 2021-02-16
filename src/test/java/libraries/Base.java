@@ -23,6 +23,7 @@ public class Base {
     @BeforeClass
     public void beforeAllTests() {
         selLibrary = new GlobalSeleniumLibrary();
+        //change something today
 
         String tempTestStartTime = selLibrary.getCurrentTime();
         JavaPropertiesManager sessionTimeProp = new JavaPropertiesManager(

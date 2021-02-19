@@ -2,24 +2,24 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-02-09T15:08:01 EST" name="Surefire suite" finished-at="2021-02-09T15:08:13 EST" duration-ms="12143">
+  <suite started-at="2021-02-18T01:30:07 EST" name="Surefire suite" finished-at="2021-02-18T01:30:16 EST" duration-ms="9244">
     <groups>
     </groups>
-    <test started-at="2021-02-09T15:08:01 EST" name="Surefire test" finished-at="2021-02-09T15:08:13 EST" duration-ms="12143">
+    <test started-at="2021-02-18T01:30:07 EST" name="Surefire test" finished-at="2021-02-18T01:30:16 EST" duration-ms="9244">
       <class name="tests.AutomationPracticeSmokeTest">
-        <test-method is-config="true" signature="beforeAllTests()[pri:0, instance:tests.AutomationPracticeSmokeTest@2250b9f2]" started-at="2021-02-09T15:08:01 EST" name="beforeAllTests" finished-at="2021-02-09T15:08:01 EST" duration-ms="7" status="PASS">
+        <test-method is-config="true" signature="beforeAllTests()[pri:0, instance:tests.AutomationPracticeSmokeTest@2250b9f2]" started-at="2021-02-18T01:30:07 EST" name="beforeAllTests" finished-at="2021-02-18T01:30:07 EST" duration-ms="7" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeAllTests -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:tests.AutomationPracticeSmokeTest@2250b9f2]" started-at="2021-02-09T15:08:01 EST" name="setup" finished-at="2021-02-09T15:08:03 EST" duration-ms="2066" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.AutomationPracticeSmokeTest@2250b9f2]" started-at="2021-02-18T01:30:07 EST" name="setup" finished-at="2021-02-18T01:30:09 EST" duration-ms="1907" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="smokeTest()[pri:0, instance:tests.AutomationPracticeSmokeTest@2250b9f2]" started-at="2021-02-09T15:08:03 EST" name="smokeTest" finished-at="2021-02-09T15:08:08 EST" duration-ms="4991" status="PASS">
+        <test-method signature="smokeTest()[pri:0, instance:tests.AutomationPracticeSmokeTest@2250b9f2]" started-at="2021-02-18T01:30:09 EST" name="smokeTest" finished-at="2021-02-18T01:30:11 EST" duration-ms="2247" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- smokeTest -->
-        <test-method is-config="true" signature="close(org.testng.ITestResult)[pri:0, instance:tests.AutomationPracticeSmokeTest@2250b9f2]" started-at="2021-02-09T15:08:08 EST" name="close" finished-at="2021-02-09T15:08:13 EST" duration-ms="5071" status="PASS">
+        <test-method is-config="true" signature="close(org.testng.ITestResult)[pri:0, instance:tests.AutomationPracticeSmokeTest@2250b9f2]" started-at="2021-02-18T01:30:11 EST" name="close" finished-at="2021-02-18T01:30:16 EST" duration-ms="5072" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -30,7 +30,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- close -->
-        <test-method is-config="true" signature="afterAllTests()[pri:0, instance:tests.AutomationPracticeSmokeTest@2250b9f2]" started-at="2021-02-09T15:08:13 EST" name="afterAllTests" finished-at="2021-02-09T15:08:13 EST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="afterAllTests()[pri:0, instance:tests.AutomationPracticeSmokeTest@2250b9f2]" started-at="2021-02-18T01:30:16 EST" name="afterAllTests" finished-at="2021-02-18T01:30:16 EST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterAllTests -->
